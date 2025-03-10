@@ -1,12 +1,11 @@
 # 7-Segment Display Control with Raspberry Pi
 
-A Python script to cycle through digits 0-9 on a common cathode 7-segment display using a Raspberry Pi.
+A Python script to cycle through digits 0-9 on a 7-segment display using Raspberry Pi.
 
 ## Hardware Requirements
-- Raspberry Pi (any model with GPIO pins)
-- Common cathode 7-segment display
-- 7x 220-330Ω resistors (for current limiting)
-- Breadboard and jumper wires
+- Raspberry Pi 4 model B
+- 7-segment display
+- Breadboard and wires
 
 ## Wiring Instructions
 Connect the 7-segment display to the Raspberry Pi GPIO pins (BCM numbering) as follows:
@@ -46,16 +45,9 @@ Connect the 7-segment display to the Raspberry Pi GPIO pins (BCM numbering) as f
   </tr>
 </table>
 
-- Connect the **common cathode (GND)** pin of the display to a ground (GND) pin on the Raspberry Pi.
-- Add a current-limiting resistor (220-330Ω) between each segment pin and the GPIO pins.
 
 ## Installation
 1. Ensure the Raspberry Pi is set up and the GPIO interface is enabled.
 2. Install the `RPi.GPIO` library (if not already installed):
    ```bash
    pip install RPi.GPIO
-
-
-
-
-
