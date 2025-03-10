@@ -45,13 +45,14 @@ Connect the 7-segment display to the Raspberry Pi GPIO pins (BCM numbering) as f
   </tr>
 </table>
 
-
+![Example Image](https://drive.google.com/uc?id=[1V6INvQqwRdr_U_8Xs995vFQGCe7N8LEy])
 ## Installation
 1. Ensure the Raspberry Pi is set up and the GPIO interface is enabled.
 2. Install the `RPi.GPIO` library (if not already installed):
    ```bash
    pip install RPi.GPIO
 
+![Example Image](https://drive.google.com/uc?id=[1V6INvQqwRdr_U_8Xs995vFQGCe7N8LEy])
 > [!TIP]
 > Guide to hexadecimal numbers used in code
 ![Example Image](https://drive.google.com/uc?id=[1V6INvQqwRdr_U_8Xs995vFQGCe7N8LEy])
