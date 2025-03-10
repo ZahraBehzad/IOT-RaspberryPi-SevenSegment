@@ -1,6 +1,6 @@
 # 7-Segment Display Control with Raspberry Pi
 
-A Python script to cycle through digits 0-9 on a 7-segment display using Raspberry Pi.
+This is a Python script to cycle through digits 0-9 on a 7-segment display using Raspberry Pi.
 
 ## Hardware Requirements
 - Raspberry Pi 4 model B
