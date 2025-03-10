@@ -51,3 +51,7 @@ Connect the 7-segment display to the Raspberry Pi GPIO pins (BCM numbering) as f
 2. Install the `RPi.GPIO` library (if not already installed):
    ```bash
    pip install RPi.GPIO
+
+> [!TIP]
+> Guide to hexadecimal numbers used in code
+> ![7-segment hex code]([https://myoctocat.com/assets/images/base-octocat.svg](https://drive.google.com/file/d/1V6INvQqwRdr_U_8Xs995vFQGCe7N8LEy/view?usp=drive_link))
